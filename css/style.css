@@ -19,14 +19,18 @@ body {
 }
 
 .container {
+
   /*width: 100%;*/
   margin-left: auto;
   margin-right: auto;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
   padding-left: 15px;
   padding-right: 15px;
 }
 
 .wrapper {
+  /*padding: 30px 15px;*/
   /*padding-left: 60px;
   padding-right: 60px;*/
   border-radius: 6px;
@@ -43,6 +47,7 @@ h1 {
 
 img {
   max-width: 100%;
+
   /*padding: 4px;*/
   margin-bottom: 20px;
   border: 1px solid #ddd;
@@ -95,7 +100,7 @@ footer {
 @media (min-width: 1200px) {
 
     img {
-      max-width: 100%;
+      /*max-width: 100%;*/
       margin-left: auto;
       margin-right: auto;
 }
