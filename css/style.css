@@ -1,28 +1,39 @@
+/** {
+  border: 1px solid red;
+}*/
+
 * {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  margin-top: 60px;
+  margin-top: 30px;
+  /*font-size: 2vw;*/
+  /*line-height: 1.42857143;*/
+  /*margin-top: 20px;*/
 }
+
 .container {
-  width: 970px;
-  margin: 0 auto;
+  /*width: 100%;*/
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 .wrapper {
-  padding-left: 60px;
-  padding-right: 60px;
+  /*padding-left: 60px;
+  padding-right: 60px;*/
   border-radius: 6px;
 }
 
 h1 {
-  font-size: 63px;
+  font-size: 3.6rem;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -32,14 +43,14 @@ h1 {
 
 img {
   max-width: 100%;
-  padding: 4px;
+  /*padding: 4px;*/
   margin-bottom: 20px;
   border: 1px solid #ddd;
   border-radius: 4px
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 2.4rem; /* 24px / 10px */
   font-weight: 500;
   line-height: 1.1;
 }
@@ -48,15 +59,43 @@ h3 {
   text-align: center;
 }
 
-ul, li {
-  font-size: 17px;
+li {
+  font-size: 1.7rem;   /* 17px / 10px */
 }
 
 blockquote {
+  background: #dde4e9;
   display: block;
-  padding: 10px 20px;
-  margin: 0 0 20px;
-  font-size: 21px;
-  font-weight: 200
-  border-left: 5px solid #eee
+  padding-left: 15px;
+  margin-left: 70px;
+  margin-right: 0;
+  line-height: 30px;
+  font-size: 2.1rem; /* 21px / 10px */
+  font-weight: 200;
+  border-left: 5px solid grey;
+}
+
+h4 {
+  font-size: 1.8rem;
+  line-height: 19.8px;
+}
+
+footer {
+  font-size: 1.4rem;
+  text-align: right;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 6.3rem;}
+
+  }
+
+@media (min-width: 1200px) {
+
+    img {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
 }
