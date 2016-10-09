@@ -19,10 +19,10 @@ body {
 }
 
 .container {
-
+  margin: 0 auto;
   /*width: 100%;*/
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
   /*margin-left: auto;*/
   /*margin-right: auto;*/
   padding-left: 15px;
@@ -30,25 +30,27 @@ body {
 }
 
 .wrapper {
+  background-color: #eee;
   /*padding: 30px 15px;*/
-  /*padding-left: 60px;
-  padding-right: 60px;*/
+  padding-left: 60px;
+  padding-right: 60px;
   border-radius: 6px;
 }
 
 h1 {
   font-size: 3.6rem;
   text-align: center;
-  margin-top: 20px;
+  /*margin-top: 40px;*/
   margin-bottom: 10px;
+  /*padding-top: 45px;*/
   font-weight: 500;
   line-height: 1.1;
 }
 
 img {
   max-width: 100%;
+  /*margin: 0 auto;*/
 
-  /*padding: 4px;*/
   margin-bottom: 20px;
   border: 1px solid #ddd;
   border-radius: 4px
@@ -73,9 +75,9 @@ blockquote {
   display: block;
   padding-left: 15px;
   margin-left: 70px;
-  margin-right: 0;
+  margin-right: 10px;
   line-height: 30px;
-  font-size: 2.1rem; /* 21px / 10px */
+  font-size: 1.9rem; /* 21px / 10px */
   font-weight: 200;
   border-left: 5px solid grey;
 }
@@ -101,6 +103,21 @@ footer {
 
     img {
       /*max-width: 100%;*/
-      margin-left: auto;
-      margin-right: auto;
+
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
