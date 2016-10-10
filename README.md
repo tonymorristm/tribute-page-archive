@@ -15,3 +15,4 @@ So this is my work on this project with only html/css, no bootstrap. I did look 
 Although, I had access to the html/css via CodePen, I determined to recreate the project just by looking at the project in a web browser with the aid of Chrome dev tools.
 
 Here's a link to the updated version of the project:
+https://tonymorristm.github.io/tribute-page/
